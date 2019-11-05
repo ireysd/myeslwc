@@ -54,9 +54,7 @@ export default class CustomerList extends LightningElement
 
     publishSelect(event) 
     {
-        // eslint-disable-next-line no-debugger
         debugger;
-        // eslint-disable-next-line no-console
         console.log('here!  2');
 
         fireEvent(this.pageRef, 'selectcustomer', { detail: event.detail });

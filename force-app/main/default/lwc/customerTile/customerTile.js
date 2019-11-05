@@ -39,9 +39,7 @@ export default class CustomerTile extends NavigationMixin(LightningElement)
 
     handleClick()
     {
-        // eslint-disable-next-line no-debugger
         debugger;
-        // eslint-disable-next-line no-console
         console.log('here!  1');
 
         const clickevt = new CustomEvent('customerselect', {

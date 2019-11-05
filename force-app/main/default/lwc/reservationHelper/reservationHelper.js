@@ -25,9 +25,7 @@ export default class ReservationHelper extends LightningElement
     {
         if (!this.flowStarted) 
         {
-            // eslint-disable-next-line no-debugger
             debugger;
-            // eslint-disable-next-line no-console
             console.log('here!  3');
 
             this.flowStarted = true;
@@ -37,9 +35,7 @@ export default class ReservationHelper extends LightningElement
         } 
         else if (this.flowStarted) 
         {
-            // eslint-disable-next-line no-debugger
             debugger;
-            // eslint-disable-next-line no-console
             console.log('here! 3a');
        
             const toastEvt = new ShowToastEvent({
